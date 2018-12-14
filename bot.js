@@ -1,4 +1,4 @@
-const Discord = require("discord.js");
+﻿const Discord = require("discord.js");
 const client = new Discord.Client();
 const client2 = new Discord.Client();
 
@@ -58,9 +58,7 @@ if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`** Reload Server Reload Server Reload Server Reload Server Reload Server BEST SERVER Reload Server Reload 
-		Server Reload Server Reload Server Reload Server BEST SERVERReload Server Reload Server Reload Server Reload Server Reload Server BEST 
-		SERVERReload Server Reload Server Reload Server Reload Server Reload Server BEST SERVER**[ " ${x} " ]`)
+        message.channel.send(`**Spam By Reeeeblic **[ " ${x} " ]`)
           .then(m => {
             count++;
           })
@@ -74,13 +72,7 @@ if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`** Reload Server Reload Server Reload Server Reload Server Reload Server BEST SERVER 
-		 Reload Server Reload Server Reload Server Reload Server Reload Server BEST SERVER 
-		  Reload Server Reload Server Reload Server Reload Server Reload Server BEST SERVER 
-		   Reload Server Reload Server Reload Server Reload Server Reload Server BEST SERVER 
-		    Reload Server Reload Server Reload Server Reload Server Reload Server BEST SERVER 
-			 Reload Server Reload Server Reload Server Reload Server Reload Server BEST SERVER 
-			  Reload Server Reload Server Reload Server Reload Server Reload Server BEST SERVER **[ " ${x} " ]`)
+        message.channel.send(`**Spam By Reeeeblic **[ " ${x} " ]`)
           .then(m => {
             count++;
           })
@@ -94,4 +86,3 @@ if (message.content === '!spam') {
 
 client.login(process.env.TOKEN);// لا تغير فيها شيء
 client2.login(process.env.TOKEN2);// لا تغير فيها شيء
-
